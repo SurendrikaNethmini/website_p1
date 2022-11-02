@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* style for main class. the styles in this section will affect all divitions inside the main divition
+here background image was added and set its position.
+
+*/
+
+/*fonts: font-family: 'Open Sans', sans-serif;
+        font-family: 'Raleway', sans-serif;
+        font-family: 'Playfair Display', serif;
+        font-family: 'Dosis', sans-serif;
+        font-family: 'Satisfy', cursive;*/
+.main{
+    width: 100%;
+    background: url(2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    
+    width: 200px;
+    float: left; 
+    height: 75px;
+}
+
+.logo{
+    /* this is for "nature girl " logo style*/
+    color:rgb(24, 9, 241); /*font color*/
+    font-size: 30px;
+    font-family:'Playfair Display', serif;
+    padding-left: 20px;
+    padding-top: 20px;
+    float: left;
+
+}
+
+.menu{
+    /*the styles in this section will affect to all items inside this menu division.*/
+    float: left;
+    width: 200px;
+    height: 50px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-top: 27px;
+    margin-left: 30px; /* distance between items in the list */
+    font-size: 15px;
+    padding-left: 30px;
+    border-left: 2px black solid;
+}
+
+#home{
+    border-left: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color:rgb(226, 212, 15);
+}
+
+.search{
+    width: 330px;
+    float: right;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: sans-serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #fff;
+    margin-top: 13px;
+    color: rgb(255, 255, 255);
+    border-right: none;
+    font-size: 16px;
+    padding: 10px;
+    float: left;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #faaf0d;
+    border: 2px solid #fff;
+    margin-top: 13px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    float: left;
+    width: 520px;
+    height: 430px;
+    margin: auto;
+    position: absolute;
+    margin-top: 150px;
+    border-radius: 12px;
+   /* background-color: rgba(51, 50, 50, 0.445);*/
+}
+
+.content h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight:600;
+    font-size: 50px;
+    color: #000000;
+    padding: 20px;
+    
+
+}
+
+.content .para{
+    width: 480px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    font-family:'Satisfy', cursive;
+    font-style: italic;
+    text-align: justify;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    color: rgb(3, 3, 3);
+}
+
+.content .btn2{
+    width: 160px;
+    height: 40px;
+    background: #ffffffde;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    transition: .4s ease;
+    
+}
+
+.content .btn2 a{
+   text-decoration: none;
+   color: black;
+   transition: .3s ease;
+}
+
+.btn2:hover{
+    background-color: #fff;
+}
+.content span{
+    color:  rgb(90, 29, 10);
+    font-weight: 450;
+}
+
+.form{
+    width: 250px;
+    height: 360px;
+    background-color: rgba(233, 227, 227, 0.719);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.form h2{
+    width: auto;
+    font-family: sans-serif;
+    text-align:justify;
+    color: black;
+    font-size: 25px;
+    font-weight: 100;
+    border-bottom: 2px black solid; 
+    border-top: none;
+    border-right: none;
+    border-left: none;  
+    margin-bottom: 20px;
+    padding: 7px;
+}
+
+.form input{
+    width: 250px;
+    height: 35px;
+    background: transparent;
+    font-family: sans-serif;
+    color: black;
+    font-size: 15px;
+    font-weight: 100;
+    border-bottom: .5px black solid; 
+    border-top: none;
+    border-right: none;
+    border-left: none;  
+    letter-spacing: 1px;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: black;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.btn3{
+    width: 250px;
+    height: 40px;
+    background: #fad3b2;
+    margin-top: 15px; 
+    border: none;
+    font-size: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    transition: .3s ease;
+}
+
+.btn3 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.btn3:hover{
+   background: rgb(231, 158, 48);
+   color: white;
+}
+
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form .link a{
+    text-decoration: none;
+    color: rgb(60, 9, 128);
+    text-align: center;
+}
+
+.form .link a:hover{
+    color: darkblue;
+}
+
+.form .liw{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.icons{
+    text-decoration: none;
+    color: black;
+}
+
+.icons ion-icon{
+    color: black;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 25px;
+}
+
+.icons ion-icon:hover{
+    color:darkblue;
+}
+
